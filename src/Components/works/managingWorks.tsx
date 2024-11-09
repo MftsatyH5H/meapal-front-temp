@@ -1,44 +1,56 @@
 /* eslint-disable max-len */
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../../languages/i18n.js';
 import '../../style/visionStyle.scss';
 
 function ManagingServices() {
+  const { t } = useTranslation();
+
   return (
     <div className="visionpage">
       <div className="proj mb-2">
-        <div className="proj-titel-container"><h3 className="proj-title">Managing Technical Support Services</h3></div>
+        <div className="proj-titel-container"><h3 className="proj-title">{t('managingTechnicalSupportServices')}</h3></div>
       </div>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Troubleshooting
-        <span className="highlight"> Support</span>
+        {t('troubleshootingSupport').slice(0, t('troubleshootingSupport').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('troubleshootingSupport').slice(t('troubleshootingSupport').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Our company provides expert troubleshooting services for a range of systems and software. Whether it's diagnosing technical issues, fixing bugs, or resolving system failures, our team works diligently to identify and address the root causes. With our support, you can minimize downtime and ensure that your business continues to operate smoothly and efficiently.
+        {t('troubleshootingSupportText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Installation and
-        <span className="highlight"> Setup Assistance</span>
+        {t('installationAndSetupAssistance').slice(0, t('installationAndSetupAssistance').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('installationAndSetupAssistance').slice(t('installationAndSetupAssistance').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We specialize in the seamless installation and setup of software and systems. Our team works closely with clients to understand their requirements and ensure that all components are properly configured for optimal performance. From software deployment to network configurations, we make sure everything is set up correctly from the start, so you can hit the ground running.
+        {t('installationAndSetupAssistanceText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Software Updates and
-        <span className="highlight"> Upgrades</span>
+        {t('softwareUpdatesAndUpgrades').slice(0, t('softwareUpdatesAndUpgrades').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('softwareUpdatesAndUpgrades').slice(t('softwareUpdatesAndUpgrades').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Staying up-to-date with the latest software versions and patches is crucial for security and performance. Our company offers comprehensive software update and upgrade services, helping businesses transition to newer versions with minimal disruption. We handle everything from planning and implementation to testing and quality assurance, ensuring a smooth and efficient upgrade process.
+        {t('softwareUpdatesAndUpgradesText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        User
-        <span className="highlight"> Training</span>
+        {t('userTraining').slice(0, t('userTraining').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('userTraining').slice(t('userTraining').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We offer comprehensive training services to empower your team to use software and systems effectively. Our training programs are tailored to the specific needs of your organization and cover everything from basic operations to advanced functionalities. With our user training, your staff will gain the knowledge and confidence needed to fully leverage your systems and increase productivity.
+        {t('userTrainingText')}
       </p>
     </div>
   );

@@ -1,92 +1,116 @@
 /* eslint-disable max-len */
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../../languages/i18n.js';
 import '../../style/visionStyle.scss';
 
 function CyberSecurityWorks() {
+  const { t } = useTranslation();
+
   return (
     <div className="visionpage">
       <div className="proj mb-2">
-        <div className="proj-titel-container"><h3 className="proj-title">Cyber Security Services</h3></div>
+        <div className="proj-titel-container"><h3 className="proj-title">{t('cyberSecurityServices')}</h3></div>
       </div>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Risk
-        <span className="highlight"> Assessment</span>
+        {t('riskAssessment').slice(0, t('riskAssessment').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('riskAssessment').slice(t('riskAssessment').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Risk assessment involves identifying and evaluating the vulnerabilities and risks associated with an organization’s information systems, networks, and applications. Through detailed analysis, we help organizations understand potential threats, assess their impact, and prioritize risk mitigation measures. This proactive approach ensures that vulnerabilities are addressed before they can be exploited, safeguarding critical assets.
+        {t('riskAssessmentText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Security
-        <span className="highlight"> Planning</span>
+        {t('securityPlanning').slice(0, t('securityPlanning').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('securityPlanning').slice(t('securityPlanning').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Security planning focuses on developing and implementing comprehensive security policies and strategies to protect organizations from cyber threats. We work with businesses to create customized security frameworks that address their unique challenges. These plans include preventive measures, contingency strategies, and regular updates to stay ahead of evolving cyber risks.
+        {t('securityPlanningText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Security
-        <span className="highlight"> Monitoring</span>
+        {t('securityMonitoring').slice(0, t('securityMonitoring').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('securityMonitoring').slice(t('securityMonitoring').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Security monitoring involves continuously observing an organization’s information systems, networks, and applications to detect potential security incidents or breaches. We utilize advanced monitoring tools and techniques to provide real-time insights and alerts. This service ensures rapid identification of anomalies, minimizing the impact of any potential threats.
+        {t('securityMonitoringText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Incident
-        <span className="highlight"> Response</span>
+        {t('incidentResponse').slice(0, t('incidentResponse').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('incidentResponse').slice(t('incidentResponse').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Incident response is about developing and executing a robust plan to address and mitigate the effects of security breaches or incidents. We assist organizations in creating tailored response protocols to ensure swift action during a crisis. Our services include identifying the cause of the incident, containing the threat, and implementing measures to prevent future occurrences.
+        {t('incidentResponseText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Threat
-        <span className="highlight"> Intelligence</span>
+        {t('threatIntelligence').slice(0, t('threatIntelligence').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('threatIntelligence').slice(t('threatIntelligence').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Threat intelligence involves collecting and analyzing information about potential cyber threats and vulnerabilities. Our experts provide organizations with actionable insights into emerging threats, enabling them to fortify their defenses proactively. This service helps businesses stay informed about the latest tactics used by cybercriminals.
+        {t('threatIntelligenceText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Security
-        <span className="highlight"> Testing</span>
+        {t('securityTesting').slice(0, t('securityTesting').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('securityTesting').slice(t('securityTesting').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Security testing involves conducting regular evaluations and penetration tests to identify weaknesses in an organization’s security controls. We provide thorough testing services to uncover vulnerabilities and recommend actionable improvements, ensuring the organization remains resilient against potential attacks.
+        {t('securityTestingText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Security Awareness
-        <span className="highlight"> Training</span>
+        {t('securityAwarenessTraining').slice(0, t('securityAwarenessTraining').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('securityAwarenessTraining').slice(t('securityAwarenessTraining').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Security awareness training equips employees with the knowledge and skills to identify and mitigate potential security threats. Our training programs cover best practices, common attack scenarios, and techniques to enhance vigilance, fostering a security-conscious culture within the organization.
+        {t('securityAwarenessTrainingText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Compliance
-        <span className="highlight"> Management</span>
+        {t('complianceManagement').slice(0, t('complianceManagement').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('complianceManagement').slice(t('complianceManagement').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Compliance management ensures that organizations meet relevant laws, regulations, and industry standards for information security. We provide guidance and solutions to help businesses maintain compliance, avoid penalties, and strengthen trust with stakeholders.
+        {t('complianceManagementText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Security
-        <span className="highlight"> Architecture Design</span>
+        {t('securityArchitectureDesign').slice(0, t('securityArchitectureDesign').indexOf(' '))}
+        <span className="highlight">
+          {` ${t('securityArchitectureDesign').slice(t('securityArchitectureDesign').indexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Security architecture design involves creating secure frameworks for an organization’s information systems, networks, and applications. Our experts design and implement robust security architectures that address current and future challenges while aligning with business objectives.
+        {t('securityArchitectureDesignText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Security
-        <span className="highlight"> Audits</span>
+        {t('securityAudits').slice(0, t('securityAudits').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('securityAudits').slice(t('securityAudits').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Security audits involve regular evaluations of an organization’s security controls to determine their effectiveness and identify areas for improvement. We conduct comprehensive audits to ensure that organizations remain secure and compliant, providing actionable insights for continuous improvement.
+        {t('securityAuditsText')}
       </p>
     </div>
   );
