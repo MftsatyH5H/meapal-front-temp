@@ -5,61 +5,49 @@ import '../../style/visionStyle.scss';
 function ASWorks() {
   return (
     <div className="visionpage">
-      <h2 className="visionpage-h2">
-        AS400 Team
-        <span className="highlight"> Skills </span>
-      </h2>
+      <div className="proj mb-2">
+        <div className="proj-titel-container"><h3 className="proj-title">AS400 Support Services</h3></div>
+      </div>
 
-      <p style={{ marginBottom: '15px' }} className="vision-text mb-3">
-        <ul>
-          <li>Our Team Worked on system design and implementation, enhancing system performance and tuning.</li>
-          <li>Configured and operated all backup and restore types (media management, BRMS).</li>
-          <li>Installed, configured, and supported software replication solutions.</li>
-          <li>Configured and implemented system security for all object types (obj-lib-user, etc.).</li>
-          <li>Analyzed and operated on all hardware and software machine problems.</li>
-          <li>Applied and upgraded cumulative PTFs for the operating system.</li>
-          <li>Installed and operated DB2 databases.</li>
-          <li>Worked on and supported the installation of LCM servers and business engine for the M3 project.</li>
-        </ul>
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Operating
+        <span className="highlight"> System</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We offer assistance in the installation, configuration, and maintenance of operating systems for AS400 servers. Our team ensures that your system is properly set up for optimal performance and reliability. We also provide ongoing support for routine maintenance tasks to keep your operating system running smoothly and securely.
       </p>
-      <h2 className="visionpage-h2">
-        AS400
-        <span className="highlight"> Mission </span>
-        And
-        <span className="highlight"> Vision </span>
-      </h2>
-      <p className="vision-text">
-        <p>Our Vision is to be one of the world’s leading IT Service producers and providers using our portfolio of services to differentiate our content ,build and Keep the strong team to be ready to cover our business needs. </p>
-        <p>It is the mission to deliver professional services that result in the highest quality services product available while every aspect of your business with a high level of quality ,commitment and integrity. </p>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Software Installation and
+        <span className="highlight"> Support</span>
+      </h3>
+      <p className="vision-text mb-3">
+        Our team provides comprehensive support for installing and configuring software applications on AS400 systems. Whether you're setting up a new application or troubleshooting an existing one, we are equipped to assist with all aspects of software deployment and issue resolution. We help ensure that your applications run seamlessly and meet your business needs.
       </p>
-      <h2 className="visionpage-h2">
-        AS400 Team
-        <span className="highlight"> Services</span>
-      </h2>
-      <p className="vision-text">
-        <ul>
-          <li>More than 20 clients</li>
-          <li>66 AS400 AXWAY servers</li>
-          <li>Adding 3 new servers</li>
-          <li>AGL Group adding 38 servers</li>
-        </ul>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Performance
+        <span className="highlight"> Tuning</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We specialize in performance tuning for AS400 servers. Our experts analyze system resources, identify performance bottlenecks, and implement optimizations to enhance the overall performance of your system. By fine-tuning configurations and optimizing resources, we help your AS400 server operate at its peak efficiency.
       </p>
-      <h2 className="visionpage-h2">
-        Number of
-        <span className="highlight"> Tickets & Partitions</span>
-      </h2>
-      <p className="vision-text">
-        As we see the increase of tickets No in 2023 , As a result of the number of problems associated With AGL partitions
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Backup and
+        <span className="highlight"> Recovery</span>
+      </h3>
+      <p className="vision-text mb-3">
+        Our backup and recovery services ensure that your critical data is always protected. In the event of system failure or data loss, we help you restore your data quickly and efficiently. We work with you to design a reliable backup strategy and recovery plan that minimizes downtime and protects your business operations.
       </p>
-      <img className="vision-img" src="public/as400-works-1.png" alt="datascience-1" />
-      <h2 className="visionpage-h2">
-        Project And
-        <span className="highlight"> Achievements</span>
-      </h2>
-      <p className="vision-text">
-        While providing technical support we noticed some points that should be worked on to improve the server’s performance, so we opened some projects in parallel our support
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Security and
+        <span className="highlight"> Compliance</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We help ensure that your AS400 server is secure and compliant with the latest industry standards and regulations. Our team conducts security assessments, implements necessary security measures, and ensures compliance with relevant guidelines to protect your data and maintain regulatory standards.
       </p>
-      <img className="vision-img" src="public/as400-works-2.png" alt="datascience-1" />
     </div>
   );
 }

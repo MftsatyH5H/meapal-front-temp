@@ -27,6 +27,7 @@ $red-color: #b7202f;
     width: 100%;
     margin: 30px 0px;
   }
+  
 }
 
 // Small screens (mobiles)
@@ -76,9 +77,6 @@ $red-color: #b7202f;
     }
 }
 
-.proj{
-    margin: 50px 0;
-}
 
 .proj-content{
     font-size: large;
@@ -154,4 +152,12 @@ $red-color: #b7202f;
   margin: 30px 100px;
   margin-bottom: 0px;
   align-items: center;
+}
+.logo-img{
+  width: 150px;
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

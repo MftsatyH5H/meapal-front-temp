@@ -1,10 +1,11 @@
 // @import '../../public/home-bg.jpg';
-
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 body {
   text-transform: capitalize;
   background-color: #ddd;
   font-family: 'Heebo', sans-serif !important;
-  background-image: url("/public/planet.png");
+  background-image: url("planet.png");
   background-size: 2500px 2200px;
   animation: move 300s infinite;
 }
@@ -18,4 +19,13 @@ body {
   100% {
       background-position: 0% 0%;
   }
+}
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

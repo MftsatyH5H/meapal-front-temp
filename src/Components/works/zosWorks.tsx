@@ -60,7 +60,7 @@ function ZosWorks() {
           <li>3M Administration</li>
         </ul>
       </p>
-      <img className="vision-img" src="public/zos-works-1.png" alt="datascience-1" />
+      <img className="vision-img" src="zos-works-1.png" alt="datascience-1" />
       <h2 className="visionpage-h2">
         Customers
         <span className="highlight"> we worked with</span>
@@ -74,7 +74,7 @@ function ZosWorks() {
         </ul>
 
       </p>
-      <img className="vision-img" src="public/zos-works-2.png" alt="datascience-1" />
+      <img className="vision-img" src="zos-works-2.png" alt="datascience-1" />
     </div>
   );
 }

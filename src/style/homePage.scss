@@ -24,11 +24,11 @@ $red-color: #b7202f;
   color: rgba(255, 255, 255, 0.904);
   border: none;
   border-radius: 7px;
-  padding: 10px 20px; 
+  padding: 10px 20px;
   font-size: 1.2rem;
   cursor: pointer;
 }
-.title-highlight{
+.title-highlight {
   font-family: 'Saira Stencil One', sans-serif;
 }
 .homepage-responsive {
@@ -48,29 +48,53 @@ $red-color: #b7202f;
     text-align: center;
   }
 }
-.info-box-container{
+.info-box-container {
   background-color: #fff;
 }
-.info-box-container-right{
+.info-box-container-right {
   display: flex;
   justify-content: end;
   background-color: #fff;
 }
-.info-box-responsive{
+.info-box-responsive {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   max-width: 1200px;
   padding: 25px;
+  .info-img {
+    width: 260px;
+  }
 }
-.info-box-responsive-right{
+@media (max-width: 768px) {
+  .info-box-responsive {
+    max-width: 600px;
+    .info-img {
+      margin-top: 150px;
+      width: 190px;
+    }
+  }
+}
+.info-box-responsive-right {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 170px;
   border-bottom-left-radius: 170px;
   max-width: 1200px;
   padding: 25px;
+  .info-img {
+    width: 260px;
+  }
 }
-.planet-background-right{
+@media (max-width: 768px) {
+  .info-box-responsive-right {
+    max-width: 600px;
+    .info-img {
+      margin-top: 150px;
+      width: 190px;
+    }
+  }
+}
+.planet-background-right {
   position: absolute;
   width: 390px;
   top: 830px;
@@ -86,16 +110,18 @@ $red-color: #b7202f;
     justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
-    width: 100%; 
+    width: 100%;
 
-    h1, h2, p {
+    h1,
+    h2,
+    p {
       margin: 10px 0;
-      padding: 0 10px; 
+      padding: 0 10px;
     }
   }
 
   .homepage-h1 {
-    font-size: 2.5vw; 
+    font-size: 2.5vw;
     font-weight: 500;
     color: #3b3a3aee;
   }
@@ -114,25 +140,23 @@ $red-color: #b7202f;
     font-size: 1.5vw;
     font-weight: 500;
     color: #3b3a3aee;
-    max-width: 80%; 
+    max-width: 80%;
   }
-
-
 
   .icon {
     margin: 10px;
-    max-width: 80%; 
+    max-width: 80%;
     height: auto;
   }
 
   .cards-container {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%; 
+    width: 100%;
 
     .card {
-      flex: 1 1 calc(33.33% - 20px); 
+      flex: 1 1 calc(33.33% - 20px);
       margin: 10px;
       padding: 20px;
       border-radius: 8px;
@@ -177,11 +201,11 @@ $red-color: #b7202f;
 
     .text-row {
       display: flex;
-      flex-wrap: wrap; 
+      flex-wrap: wrap;
       justify-content: space-between;
 
       .text-block {
-        flex: 1 1 calc(50% - 20px); 
+        flex: 1 1 calc(50% - 20px);
         padding: 20px;
         text-align: center;
 
@@ -228,12 +252,12 @@ $red-color: #b7202f;
     max-width: 1000px;
 
     &.reverse {
-      flex-direction: row-reverse; 
+      flex-direction: row-reverse;
     }
 
     .info-image {
       max-width: 100%;
-      width: 300px; 
+      width: 300px;
       margin: 10px;
     }
 
@@ -304,11 +328,11 @@ $red-color: #b7202f;
 /* Media Queries */
 @media (max-width: 768px) {
   .cards-container {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .text-sections .text-block {
-    flex: 1 1 100%; 
+    flex: 1 1 100%;
     border-right: none;
     border-bottom: 2px dashed #2e2d2d;
   }
@@ -323,15 +347,15 @@ $red-color: #b7202f;
 @media (max-width: 480px) {
   .homepage-h1,
   .homepage-h2 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
 
   .cards-container .card {
-    flex: 1 1 100%; 
+    flex: 1 1 100%;
   }
 
   .info-box .info-image {
-    width: 100%; 
+    width: 100%;
     max-width: 100%;
   }
 
@@ -340,6 +364,6 @@ $red-color: #b7202f;
   }
 
   .trusted-large-text {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
 }

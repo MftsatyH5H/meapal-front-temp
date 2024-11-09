@@ -5,40 +5,81 @@ import '../../style/visionStyle.scss';
 function SDMWorks() {
   return (
     <div className="visionpage">
-      <h2 className="visionpage-h2">
-        Meapal
-        <span className="highlight"> Pilotage </span>
-        Team
-      </h2>
+      <div className="proj mb-2">
+        <div className="proj-titel-container"><h3 className="proj-title">Digital Transformation Services</h3></div>
+      </div>
 
-      <p style={{ marginBottom: '15px' }} className="vision-text mb-3">
-
-        Our Pilotage IT Support Team operates around the clock, providing seamless support 24/7 through three dedicated shifts (AM, PM, and Night). New team members undergo a rigorous one-month training period to ensure they meet our high standards of service. With over 150 clients relying on us, the team handles approximately 100 tickets daily, maintaining efficient, responsive service for each request. The team consists of 16 skilled pilots who are committed to managing client needs with expertise and reliability at all hours.
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Digital Strategy
+        <span className="highlight"> Development</span>
+      </h3>
+      <p className="vision-text mb-3">
+        Our team helps businesses define their digital vision and goals, ensuring alignment with their overall strategy. By evaluating market trends, customer demands, and technological advancements, we work closely with organizations to create a roadmap that integrates digital transformation seamlessly into their business processes.
       </p>
 
-      <h2 className="visionpage-h2">
-        Pilotage
-        <span className="highlight"> Mission </span>
-      </h2>
-      <p style={{ marginBottom: '2px' }} className="vision-text mb-3">
-        Being the single point of contact for IT related advice and support and be recognized as an excellent service provider.
-        <ul>
-          <li>Delivering proactive, knowledgeable, and reliable service as the first point of contact, offering advice and support for centrally provided IT services</li>
-          <li>Supporting and developing staff to ensure the delivery of excellent quality service</li>
-          <li>Continually developing and improving services and processes</li>
-          <li>Taking positive action to maintain a high level of customer satisfaction</li>
-        </ul>
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Business Process
+        <span className="highlight"> Reengineering</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We assist organizations in streamlining and automating their business processes through digital technologies. Our experts analyze current workflows and design solutions that optimize efficiency, reduce errors, and improve productivity, ultimately transforming how your business operates.
       </p>
-      <h2 className="visionpage-h2">
-        Action
-        <span className="highlight"> Plan</span>
-      </h2>
-      <img className="vision-img" src="it-works-2.png" alt="datascience-1" />
-      <h2 className="visionpage-h2">
-        Clients
-        <span className="highlight"> Support Strategy</span>
-      </h2>
-      <img className="vision-img" src="it-works-3.png" alt="datascience-1" />
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Customer Experience
+        <span className="highlight"> Design</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We focus on improving the customer journey by redesigning interactions through digital channels. By leveraging digital tools and platforms, we help businesses create engaging, personalized experiences that delight customers and foster long-term relationships.
+      </p>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Data
+        <span className="highlight"> Analytics</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We provide businesses with insights derived from data analysis to support decision-making. By collecting and analyzing data from various touchpoints, we help organizations identify trends, make informed decisions, and uncover opportunities for growth and innovation.
+      </p>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Cloud
+        <span className="highlight"> Computing</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We assist businesses in migrating to cloud-based platforms, enhancing scalability and reducing infrastructure costs. Our team ensures a smooth transition to the cloud, improving operational flexibility and ensuring that your business can easily scale as needed while maintaining data security and reliability.
+      </p>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Internet of Things
+        <span className="highlight"> (IoT)</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We help organizations leverage IoT technologies to collect and analyze data from connected devices. This data is used to optimize operational processes, enhance customer experiences, and drive innovation, allowing businesses to stay ahead of the curve in a connected world.
+      </p>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Artificial Intelligence
+        <span className="highlight"> (AI) and Machine Learning</span>
+      </h3>
+      <p className="vision-text mb-3">
+        Our team harnesses AI and machine learning to automate business processes, optimize workflows, and enhance decision-making. By implementing advanced algorithms, we enable businesses to improve customer interactions, reduce operational costs, and unlock new opportunities for growth.
+      </p>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Cybersecurity
+        <span className="highlight"> Solutions</span>
+      </h3>
+      <p className="vision-text mb-3">
+        We ensure that your digital assets and data remain secure through the implementation of best-in-class security measures. Our team works to safeguard your systems and ensure compliance with industry regulations, protecting your organization from potential cyber threats and vulnerabilities.
+      </p>
+
+      <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
+        Change
+        <span className="highlight"> Management</span>
+      </h3>
+      <p className="vision-text mb-3">
+        Our change management services help businesses navigate the human side of digital transformation. From effective communication strategies to comprehensive training programs, we support your team in adapting to new systems and processes, ensuring that the transformation is smooth and sustainable.
+      </p>
     </div>
   );
 }

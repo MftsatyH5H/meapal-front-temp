@@ -20,6 +20,13 @@ import ZosWorks from './Components/works/zosWorks';
 import ASWorks from './Components/works/as400Works';
 import DevelopmentWorks from './Components/works/developemntWorks';
 import SDMWorks from './Components/works/sdmWorks';
+import LegacyWorks from './Components/works/leagacyWorks';
+import GdprWorks from './Components/works/gdprWorks';
+import CyberSecurityWorks from './Components/works/cyberSecurityWorks';
+import SapServices from './Components/works/sapServices';
+import ManagingServices from './Components/works/managingWorks';
+import OracleNetSuiteServices from './Components/works/oracleNetSuite';
+import UnderConstruction from './Components/underConstruction/UnderConstruction';
 
 // @ts-ignore
 function App() {
@@ -46,6 +53,13 @@ function App() {
         <Route path="/works-zos" element={<ZosWorks />} />
         <Route path="/works-development" element={<DevelopmentWorks />} />
         <Route path="/works-sdm" element={<SDMWorks />} />
+        <Route path="/works-legacy" element={<LegacyWorks />} />
+        <Route path="/works-gdpr" element={<GdprWorks />} />
+        <Route path="/works-cyber" element={<CyberSecurityWorks />} />
+        <Route path="/works-sap" element={<SapServices />} />
+        <Route path="/works-managing" element={<ManagingServices />} />
+        <Route path="/works-netsuite" element={<OracleNetSuiteServices />} />
+        <Route path="/underConstruction" element={<UnderConstruction />} />
       </Routes>
       <Footer />
     </Router>

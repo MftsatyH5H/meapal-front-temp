@@ -1,32 +1,133 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable max-len */
 import React from 'react';
 import '../../style/visionStyle.scss';
+import Slider from 'react-slick';
 
 function OurVisionPage() {
+  const settings = {
+    className: 'center',
+    infinite: true,
+    centerPadding: '60px',
+    slidesToShow: 5,
+    swipeToSlide: true,
+  };
   return (
     <div className="visionpage">
-      <h2 className="visionpage-h2">
-        Meapal
-        <span className="highlight"> Vision</span>
-      </h2>
 
-      <p className="vision-text">
-        The company&apos;s vision is to leverage its extensive experience in information technology and communications to deliver the most suitable and best integrated solutions for executing its projects. By combining innovative technologies with industry best practices, we aim to enhance operational efficiency and drive success for our clients. Our commitment to continuous improvement and adaptation allows us to meet the evolving needs of the market, ensuring that we provide cutting-edge solutions that not only fulfill client requirements but also exceed their expectations.
-      </p>
+      <div className="homepage-responsive">
+        <h2 className="homepage-responsive-h2 mb-5">
+          Meapal
+          <span className="highlight"> Partners </span>
+        </h2>
+      </div>
+      <Slider {...settings}>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="microsoft-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="ibm-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-1" src="citrix-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="veeam-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-4" src="netapp-logo.svg" alt="ibm-logo" />
+        </div>
+      </Slider>
+      <div className="homepage-responsive">
+        <h2 className="homepage-responsive-h2 mb-5">
+          <p style={{ fontWeight: 'bold', fontSize: 'large' }} className="mt-4">
+            Complex & convergent Infrastructures
 
-      <h2 className="visionpage-h2">
-        Locations,
-        <span className="highlight"> Statistics </span>
-        and
-        <span className="highlight"> Values</span>
-      </h2>
+          </p>
+        </h2>
+      </div>
+      <Slider {...settings}>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="lenovo-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="cisco-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-1" src="aws-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="azure-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-4" src="netapp-logo.svg" alt="ibm-logo" />
+        </div>
+      </Slider>
+      <div className="homepage-responsive">
+        <h2 className="homepage-responsive-h2 mb-5">
+          <p style={{ fontWeight: 'bold', fontSize: 'large' }} className="mt-4">
+            Application & User experience
 
-      <img className="vision-img" src="implantation.png" alt="implantation" />
-      <img
-        className="vision-img"
-        src="CORELIA_Strategic_Partners.png"
-        alt="Corelia Strategic Partners"
-      />
+          </p>
+        </h2>
+      </div>
+      <div className="logo-container">
+        <img className="logo-img mt-3" src="office365-logo.png" alt="ibm-logo" />
+      </div>
+      <div className="homepage-responsive">
+        <h2 className="homepage-responsive-h2 mb-5">
+          <p style={{ fontWeight: 'bold', fontSize: 'large' }} className="mt-4">
+            Data Management
+
+          </p>
+        </h2>
+      </div>
+      <Slider {...settings}>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="oracle-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="ibm-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="oracle-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="ibm-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="oracle-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="ibm-logo.png" alt="ibm-logo" />
+        </div>
+      </Slider>
+      <div className="homepage-responsive">
+        <h2 className="homepage-responsive-h2 mb-5">
+          <p style={{ fontWeight: 'bold', fontSize: 'large' }} className="mt-4">
+            Cloud & Power Systems
+
+          </p>
+        </h2>
+      </div>
+      <Slider {...settings}>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="precisely-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="ibm-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="oracle-logo.svg" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img" src="ibm-logo.png" alt="ibm-logo" />
+        </div>
+        <div className="logo-container">
+          <img className="logo-img mt-3" src="precisely-logo.svg" alt="ibm-logo" />
+        </div>
+      </Slider>
     </div>
   );
 }

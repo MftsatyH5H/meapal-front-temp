@@ -4,10 +4,14 @@ import React from 'react';
 import '../../style/footer.scss';
 import { Divider } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import '../../languages/i18n.js';
 // import { Link } from 'react-router-dom';
 
 function Footer() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+
   return (
   // <div className="footer-container">
   //   <div className="footer-content">
@@ -97,66 +101,67 @@ function Footer() {
     <div className="container-fluid footer">
       <div className="row ms-4 me-4 p-2">
         <div className="col-12 col-sm-3 mt-2 mb-0">
-          <img className="navbar-logo" alt="Logo" src="/public/meapal-logo-white.png" />
+          <img className="navbar-logo" alt="Logo" src="meapal-logo-white.png" />
           <p className="p-footer mt-3">
-            Correlating data means making it efficient, honest,
-            compliant, structured, indexed & homogeneous.
+            {t('correlatingDataText')}
           </p>
         </div>
         <div className="col-12 col-sm-3 mt-3">
           <p className="list-title">
-            Company
+            <h3>{t('company')}</h3>
 
           </p>
           <ul>
-            <li>About Us</li>
-            <li>Why Choose Us</li>
-            <li>Know How</li>
-            <li>Customers</li>
+            <li>{t('aboutUs')}</li>
+            <li>{t('whyChooseUs')}</li>
+            <li>{t('knowHow')}</li>
+            <li>{t('customers')}</li>
           </ul>
         </div>
         <div className="col-12 col-sm-3 mt-3">
           <p className="list-title">
-            Resources
+            <h3>{t('resources')}</h3>
           </p>
           <ul>
-            <li onClick={() => { navigate('/privacy-policy'); }}>Privacy Policy</li>
-            <li onClick={() => { navigate('/terms-and-conditions'); }}>Terms and Condition</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
+            <li onClick={() => navigate('/privacy-policy')}>{t('privacyPolicy')}</li>
+            <li onClick={() => navigate('/terms-and-conditions')}>{t('termsAndConditions')}</li>
+            <li>{t('blog')}</li>
+            <li>{t('contactUs')}</li>
           </ul>
         </div>
         <div className="col-12 col-sm-3 mt-3">
           <p className="list-title">
-            Product
+            <h1>{t('product')}</h1>
           </p>
           <ul>
-            <li>Project management</li>
-            <li>Time tracker</li>
-            <li>Time schedule</li>
-            <li>Lead generate</li>
-            <li>Remote Collaboration</li>
+            <li>{t('projectManagement')}</li>
+            <li>{t('timeTracker')}</li>
+            <li>{t('timeSchedule')}</li>
+            <li>{t('leadGenerate')}</li>
+            <li>{t('remoteCollaboration')}</li>
           </ul>
         </div>
       </div>
       <div className="row ms-4 me-4 p-2 mt-0">
         <div className="col-12 col-sm-4">
           <p className="p-contact-us mb-0">
-            Contact us :
+            {t('phone')}
           </p>
           <span className="p-number mt-0">
-            +33 (0)1 58 87 32 00
+            {t('phone')}
           </span>
         </div>
         <div className="col-12 col-sm-4">
           <p className="p-contact-us mb-0">
-            Where to find us ?
+            {t('whereToFindUs')}
           </p>
           <span className="p-number mt-0">
-            Degla Plaza, Street 199, Maadi, Cairo Governorate 11435
+            {t('address')}
           </span>
         </div>
-        <Divider className="mt-3 mb-0" plain style={{ borderColor: 'white', color: 'white' }}>Copyright @MEAPAL2023</Divider>
+        <Divider className="mt-3 mb-0" plain style={{ borderColor: 'white', color: 'white' }}>
+          {t('copyright')}
+        </Divider>
       </div>
 
     </div>

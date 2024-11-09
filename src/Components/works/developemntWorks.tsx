@@ -6,20 +6,19 @@ import '../../style/visionStyle.scss';
 function DevelopmentWorks() {
   return (
     <div className="developmentpage">
-      <h2 className="developmentpage-h2">
-        Meapal
-        <span className="highlight"> Development </span>
-        Vision
-      </h2>
-      <p className="vision-text">
-        In our company, the software development section is dedicated to delivering innovative and high-quality solutions tailored to meet the unique needs of our clients. Our skilled team of developers employs the latest technologies and agile methodologies to design, develop, and maintain software applications that enhance operational efficiency and drive business growth. We prioritize collaboration and open communication throughout the development process, ensuring that our clients are actively involved and informed at every stage. From custom software applications to system integrations and enhancements, we are committed to providing robust, scalable, and user-friendly solutions that empower organizations to achieve their objectives.
-      </p>
-      <h2 className="developmentpage-h2">
-        Meapal Software
-        <span className="highlight"> Solutions  </span>
-      </h2>
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">Cyber Security Report Generation Tool (COCA 4000)</h3></div>
+        <div className="proj-titel-container"><h3 className="proj-title">Software Development Services</h3></div>
+      </div>
+      <h2 className="developmentpage-h2">
+        Web
+        <span className="highlight"> Applications </span>
+      </h2>
+      <div>
+        <h3 className="developmentpage-h2">
+          Cyber Security
+          <span className="highlight"> Report Generation </span>
+          Tool (COCA 4000)
+        </h3>
         <ul className="proj-content">
           <li>
             An internal tool specifically designed for the cyber security team for
@@ -45,7 +44,10 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">Main Frame Dashboard (Carmf)</h3></div>
+        <h3 className="developmentpage-h2">
+          Main Frame
+          <span className="highlight"> Dashboard </span>
+        </h3>
         <ul className="proj-content">
           <li>
             A dashboard made for the mainframe ZOS systems, which automates manual tasks by
@@ -70,7 +72,10 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">Self-Service Portal</h3></div>
+        <h3 className="developmentpage-h2">
+          Self-Service
+          <span className="highlight"> Portal </span>
+        </h3>
         <ul className="proj-content">
           <li>
             The Self-Service Portal empowers employees by centralizing access to essential
@@ -96,7 +101,11 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">Database Monitoring</h3></div>
+        <h3 className="developmentpage-h2">
+          Database
+          <span className="highlight"> Monitoring </span>
+          Tool
+        </h3>
         <ul className="proj-content">
           <li>
             This database monitoring is a comprehensive solution for streamlining database
@@ -120,7 +129,10 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">Dirprod Bot</h3></div>
+        <h3 className="developmentpage-h2">
+          Dirprod
+          <span className="highlight"> Bot </span>
+        </h3>
         <ul className="proj-content">
           <li>
             This application is a chatbot integrated with Teams, designed to support
@@ -143,7 +155,10 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">Cockpit Tools</h3></div>
+        <h3 className="developmentpage-h2">
+          Cockpit
+          <span className="highlight"> Tools </span>
+        </h3>
         <ul className="proj-content">
           <li>
             The integration between the cockpit system and the EasyVista system
@@ -167,7 +182,11 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">Game Management System</h3></div>
+        <h3 className="developmentpage-h2">
+          Game
+          <span className="highlight"> Management </span>
+          System
+        </h3>
         <ul className="proj-content">
           <li>
             The Game Management System is a centralized platform for stakeholders including users,
@@ -191,7 +210,11 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">AS400 Automation (BSF)</h3></div>
+        <h3 className="developmentpage-h2">
+          AS400
+          <span className="highlight"> Automation </span>
+          (BSF)
+        </h3>
         <ul className="proj-content">
           <li>
             BSF automates manual tasks by dispatching a defined sequence of commands to
@@ -216,7 +239,10 @@ function DevelopmentWorks() {
       </div>
 
       <div className="proj">
-        <div className="proj-titel-container"><h3 className="proj-title">MEAPAL ERPNEXT</h3></div>
+        <h3 className="developmentpage-h2">
+          Meapal
+          <span className="highlight"> ERPNEXT </span>
+        </h3>
         <ul className="proj-content">
           <li>
             Simplify and streamline your global business operations with a
