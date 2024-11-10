@@ -103,7 +103,39 @@
              "customDevelopmentORACLE": "Custom Development",
              "customDevelopmentORACLEText": "Our custom development services for ORACLE NET SUITE focus on creating tailored solutions to meet the unique needs of your business. From building custom modules to integrating new features, we work closely with your team to deliver high-quality, bespoke applications that help you streamline your processes and enhance overall productivity.",
              "trainingAndKnowledgeTransferORACLE": "Training and Knowledge Transfer",
-             "trainingAndKnowledgeTransferORACLEText": "We offer specialized training and knowledge transfer services to ensure that your team can fully leverage ORACLE NET SUITE’s capabilities. Our training programs cover everything from basic usage to advanced features, empowering your employees with the skills and knowledge they need to be successful in managing and utilizing the software. We also focus on knowledge transfer to ensure long-term independence and success."
+             "trainingAndKnowledgeTransferORACLEText": "We offer specialized training and knowledge transfer services to ensure that your team can fully leverage ORACLE NET SUITE’s capabilities. Our training programs cover everything from basic usage to advanced features, empowering your employees with the skills and knowledge they need to be successful in managing and utilizing the software. We also focus on knowledge transfer to ensure long-term independence and success.",
+
+             "as400SupportServices": "AS400 Support Services",
+             "operatingSystem": "Operating System",
+             "operatingSystemText": "We offer assistance in the installation, configuration, and maintenance of operating systems for AS400 servers. Our team ensures that your system is properly set up for optimal performance and reliability. We also provide ongoing support for routine maintenance tasks to keep your operating system running smoothly and securely.",
+             "softwareInstallationAndSupport": "Software Installation and Support",
+             "softwareInstallationAndSupportText": "Our team provides comprehensive support for installing and configuring software applications on AS400 systems. Whether you're setting up a new application or troubleshooting an existing one, we are equipped to assist with all aspects of software deployment and issue resolution. We help ensure that your applications run seamlessly and meet your business needs.",
+             "performanceTuning": "Performance Tuning",
+             "performanceTuningText": "We specialize in performance tuning for AS400 servers. Our experts analyze system resources, identify performance bottlenecks, and implement optimizations to enhance the overall performance of your system. By fine-tuning configurations and optimizing resources, we help your AS400 server operate at its peak efficiency.",
+             "backupAndRecovery": "Backup and Recovery",
+             "backupAndRecoveryText": "Our backup and recovery services ensure that your critical data is always protected. In the event of system failure or data loss, we help you restore your data quickly and efficiently. We work with you to design a reliable backup strategy and recovery plan that minimizes downtime and protects your business operations.",
+             "securityAndCompliance": "Security and Compliance",
+             "securityAndComplianceText": "We help ensure that your AS400 server is secure and compliant with the latest industry standards and regulations. Our team conducts security assessments, implements necessary security measures, and ensures compliance with relevant guidelines to protect your data and maintain regulatory standards.",
+
+             "digitalTransformationServices": "Digital Transformation Services",
+             "digitalStrategyDevelopment": "Digital Strategy Development",
+             "digitalStrategyDevelopmentText": "Our team helps businesses define their digital vision and goals, ensuring alignment with their overall strategy. By evaluating market trends, customer demands, and technological advancements, we work closely with organizations to create a roadmap that integrates digital transformation seamlessly into their business processes.",
+             "businessProcessReengineering": "Business Process Reengineering",
+             "businessProcessReengineeringText": "We assist organizations in streamlining and automating their business processes through digital technologies. Our experts analyze current workflows and design solutions that optimize efficiency, reduce errors, and improve productivity, ultimately transforming how your business operates.",
+             "customerExperienceDesign": "Customer Experience Design",
+             "customerExperienceDesignText": "We focus on improving the customer journey by redesigning interactions through digital channels. By leveraging digital tools and platforms, we help businesses create engaging, personalized experiences that delight customers and foster long-term relationships.",
+             "dataAnalytics": "Data Analytics",
+             "dataAnalyticsText": "We provide businesses with insights derived from data analysis to support decision-making. By collecting and analyzing data from various touchpoints, we help organizations identify trends, make informed decisions, and uncover opportunities for growth and innovation.",
+             "cloudComputing": "Cloud Computing",
+             "cloudComputingText": "We assist businesses in migrating to cloud-based platforms, enhancing scalability and reducing infrastructure costs. Our team ensures a smooth transition to the cloud, improving operational flexibility and ensuring that your business can easily scale as needed while maintaining data security and reliability.",
+             "internetOfThings": "Internet of Things (IoT)",
+             "internetOfThingsText": "We help organizations leverage IoT technologies to collect and analyze data from connected devices. This data is used to optimize operational processes, enhance customer experiences, and drive innovation, allowing businesses to stay ahead of the curve in a connected world.",
+             "artificialIntelligenceAndMachineLearning": "Artificial Intelligence (AI) and Machine Learning",
+             "artificialIntelligenceAndMachineLearningText": "Our team harnesses AI and machine learning to automate business processes, optimize workflows, and enhance decision-making. By implementing advanced algorithms, we enable businesses to improve customer interactions, reduce operational costs, and unlock new opportunities for growth.",
+             "cybersecuritySolutions": "Cybersecurity Solutions",
+             "cybersecuritySolutionsText": "We ensure that your digital assets and data remain secure through the implementation of best-in-class security measures. Our team works to safeguard your systems and ensure compliance with industry regulations, protecting your organization from potential cyber threats and vulnerabilities.",
+             "changeManagement": "Change Management",
+             "changeManagementText": "Our change management services help businesses navigate the human side of digital transformation. From effective communication strategies to comprehensive training programs, we support your team in adapting to new systems and processes, ensuring that the transformation is smooth and sustainable."
   
       
   
