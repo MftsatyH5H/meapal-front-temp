@@ -1,84 +1,106 @@
 /* eslint-disable max-len */
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../../languages/i18n.js';
 import '../../style/visionStyle.scss';
 
 function SDMWorks() {
+  const { t } = useTranslation();
+
   return (
     <div className="visionpage">
       <div className="proj mb-2">
-        <div className="proj-titel-container"><h3 className="proj-title">Digital Transformation Services</h3></div>
+        <div className="proj-titel-container"><h3 className="proj-title">{t('digitalTransformationServices')}</h3></div>
       </div>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Digital Strategy
-        <span className="highlight"> Development</span>
+        {t('digitalStrategyDevelopment').slice(0, t('digitalStrategyDevelopment').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('digitalStrategyDevelopment').slice(t('digitalStrategyDevelopment').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Our team helps businesses define their digital vision and goals, ensuring alignment with their overall strategy. By evaluating market trends, customer demands, and technological advancements, we work closely with organizations to create a roadmap that integrates digital transformation seamlessly into their business processes.
+        {t('digitalStrategyDevelopmentText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Business Process
-        <span className="highlight"> Reengineering</span>
+        {t('businessProcessReengineering').slice(0, t('businessProcessReengineering').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('businessProcessReengineering').slice(t('businessProcessReengineering').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We assist organizations in streamlining and automating their business processes through digital technologies. Our experts analyze current workflows and design solutions that optimize efficiency, reduce errors, and improve productivity, ultimately transforming how your business operates.
+        {t('businessProcessReengineeringText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Customer Experience
-        <span className="highlight"> Design</span>
+        {t('customerExperienceDesign').slice(0, t('customerExperienceDesign').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('customerExperienceDesign').slice(t('customerExperienceDesign').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We focus on improving the customer journey by redesigning interactions through digital channels. By leveraging digital tools and platforms, we help businesses create engaging, personalized experiences that delight customers and foster long-term relationships.
+        {t('customerExperienceDesignText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Data
-        <span className="highlight"> Analytics</span>
+        {t('dataAnalytics').slice(0, t('dataAnalytics').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('dataAnalytics').slice(t('dataAnalytics').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We provide businesses with insights derived from data analysis to support decision-making. By collecting and analyzing data from various touchpoints, we help organizations identify trends, make informed decisions, and uncover opportunities for growth and innovation.
+        {t('dataAnalyticsText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Cloud
-        <span className="highlight"> Computing</span>
+        {t('cloudComputing').slice(0, t('cloudComputing').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('cloudComputing').slice(t('cloudComputing').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We assist businesses in migrating to cloud-based platforms, enhancing scalability and reducing infrastructure costs. Our team ensures a smooth transition to the cloud, improving operational flexibility and ensuring that your business can easily scale as needed while maintaining data security and reliability.
+        {t('cloudComputingText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Internet of Things
-        <span className="highlight"> (IoT)</span>
+        {t('internetOfThings').slice(0, t('internetOfThings').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('internetOfThings').slice(t('internetOfThings').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We help organizations leverage IoT technologies to collect and analyze data from connected devices. This data is used to optimize operational processes, enhance customer experiences, and drive innovation, allowing businesses to stay ahead of the curve in a connected world.
+        {t('internetOfThingsText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Artificial Intelligence
-        <span className="highlight"> (AI) and Machine Learning</span>
+        {t('artificialIntelligenceAndMachineLearning').slice(0, t('artificialIntelligenceAndMachineLearning').indexOf('('))}
+        <span className="highlight">
+          {` ${t('artificialIntelligenceAndMachineLearning').slice(t('artificialIntelligenceAndMachineLearning').indexOf('('))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Our team harnesses AI and machine learning to automate business processes, optimize workflows, and enhance decision-making. By implementing advanced algorithms, we enable businesses to improve customer interactions, reduce operational costs, and unlock new opportunities for growth.
+        {t('artificialIntelligenceAndMachineLearningText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Cybersecurity
-        <span className="highlight"> Solutions</span>
+        {t('cybersecuritySolutions').slice(0, t('cybersecuritySolutions').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('cybersecuritySolutions').slice(t('cybersecuritySolutions').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        We ensure that your digital assets and data remain secure through the implementation of best-in-class security measures. Our team works to safeguard your systems and ensure compliance with industry regulations, protecting your organization from potential cyber threats and vulnerabilities.
+        {t('cybersecuritySolutionsText')}
       </p>
 
       <h3 style={{ marginBottom: '0px' }} className="visionpage-h2 mb-0">
-        Change
-        <span className="highlight"> Management</span>
+        {t('changeManagement').slice(0, t('changeManagement').lastIndexOf(' '))}
+        <span className="highlight">
+          {` ${t('changeManagement').slice(t('changeManagement').lastIndexOf(' '))}`}
+        </span>
       </h3>
       <p className="vision-text mb-3">
-        Our change management services help businesses navigate the human side of digital transformation. From effective communication strategies to comprehensive training programs, we support your team in adapting to new systems and processes, ensuring that the transformation is smooth and sustainable.
+        {t('changeManagementText')}
       </p>
     </div>
   );
